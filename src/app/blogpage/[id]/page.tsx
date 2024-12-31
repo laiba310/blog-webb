@@ -46,7 +46,7 @@ export default async function Blogs({ params }: { params: Promise<{ id: string }
 
         {/* Ingredients */}
         <div className="pt-10">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Ingredients</h2>
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-gray-800 mb-4">Ingredients</h2>
           <ul className="list-disc pl-5 text-gray-700">
             {data.ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
@@ -56,13 +56,13 @@ export default async function Blogs({ params }: { params: Promise<{ id: string }
 
         {/* Steps */}
         <div className="pt-10">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Steps</h2>
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-gray-800 mb-4">Steps</h2>
           <ol className="list-decimal pl-5 text-gray-700 space-y-2">
             {data.steps.map((step, index) => (
               <li key={index}>{step}</li>
             ))}
           </ol>
-          <h1 className="text-2xl font-semibold text-gray-800 mb-4">Enjoy your {data.title}</h1>
+          <h1 className="text-2xl font-bold text-gray-800 mb-4">Enjoy your {data.title}</h1>
         </div>
       </div>
     </main>

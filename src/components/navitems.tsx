@@ -8,19 +8,19 @@ const NavItems = () => {
   return (
     <ul className="flex flex-col md:flex-row items-center md:gap-5">
       <li>
-        <Link href="/" className="text-black hover:text-blue-500 flex items-center gap-2">
+        <Link href="/" className="ext-black hover:text-blue-500 flex  gap-2  mb-3">
           <HousePlus />
           Home
         </Link>
       </li>
       <li>
-        <Link href="/blog" className="text-black hover:text-blue-500 flex items-center gap-2">
+        <Link href="/blog" className="text-black hover:text-blue-500 flex  gap-2  mb-3">
           <TableOfContents />
           Blog
         </Link>
       </li>
       <li>
-        <Link href="/contact" className="text-black hover:text-blue-500 flex items-center gap-2">
+        <Link href="/contact" className="ext-black hover:text-blue-500 flex  gap-2  mb-3">
           <UserPen />
           Contact Us
         </Link>
