@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { carData } from "@/data/content";
+import Comment from "@/components/comment";
 
 interface Data {
   id: number;
@@ -65,6 +66,7 @@ export default async function Blogs({ params }: { params: Promise<{ id: string }
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Enjoy your {data.title}</h1>
         </div>
       </div>
+      <Comment />
     </main>
   );
 }

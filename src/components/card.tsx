@@ -6,7 +6,7 @@ import { carData } from "@/data/content";
 
 export function CardDemo() {
   return (
-    <div className="grid w-full max-w-[1300px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-9 p-6 mx-auto transform group-hover:scale-105 transition duration-200">
+    <div className="grid w-full max-w-[1100px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap- p-6 mx-auto transform group-hover:scale-105 transition duration-200">
       {carData.map((item) => {
         return (
           <div
